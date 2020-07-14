@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D30DAAF24BE421A008B08EB /* colorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30DAAE24BE421A008B08EB /* colorScheme.swift */; };
 		DBB95B7924BE32440039EF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7824BE32440039EF61 /* AppDelegate.swift */; };
 		DBB95B7B24BE32440039EF61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7A24BE32440039EF61 /* SceneDelegate.swift */; };
 		DBB95B7D24BE32440039EF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7C24BE32440039EF61 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D30DAAE24BE421A008B08EB /* colorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorScheme.swift; sourceTree = "<group>"; };
 		DBB95B7524BE32440039EF61 /* EarthDayThreeSixtyFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthDayThreeSixtyFive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB95B7824BE32440039EF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB95B7A24BE32440039EF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				DBB95B7C24BE32440039EF61 /* ViewController.swift */,
 				DBB95BAB24BE34EE0039EF61 /* secondViewController.swift */,
 				DBB95B7E24BE32440039EF61 /* Main.storyboard */,
+				4D30DAAE24BE421A008B08EB /* colorScheme.swift */,
 				DBB95B8424BE324B0039EF61 /* Assets.xcassets */,
 				DBB95B8624BE324B0039EF61 /* LaunchScreen.storyboard */,
 				DBB95B8924BE324B0039EF61 /* Info.plist */,
@@ -267,6 +270,7 @@
 			files = (
 				DBB95B8324BE32440039EF61 /* EarthDayThreeSixtyFive.xcdatamodeld in Sources */,
 				DBB95B7D24BE32440039EF61 /* ViewController.swift in Sources */,
+				4D30DAAF24BE421A008B08EB /* colorScheme.swift in Sources */,
 				DBB95B7924BE32440039EF61 /* AppDelegate.swift in Sources */,
 				DBB95BAC24BE34EE0039EF61 /* secondViewController.swift in Sources */,
 				DBB95B7B24BE32440039EF61 /* SceneDelegate.swift in Sources */,
