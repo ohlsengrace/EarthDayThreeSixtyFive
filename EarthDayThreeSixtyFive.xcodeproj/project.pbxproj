@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		4D30DAAE24BE421A008B08EB /* colorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorScheme.swift; sourceTree = "<group>"; };
-		DBB95B7524BE32440039EF61 /* EarthDayThreeSixtyFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthDayThreeSixtyFive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB95B7524BE32440039EF61 /* EarthDay365.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthDay365.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB95B7824BE32440039EF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB95B7A24BE32440039EF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DBB95B7C24BE32440039EF61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		DBB95B7624BE32440039EF61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DBB95B7524BE32440039EF61 /* EarthDayThreeSixtyFive.app */,
+				DBB95B7524BE32440039EF61 /* EarthDay365.app */,
 				DBB95B8E24BE324B0039EF61 /* EarthDayThreeSixtyFiveTests.xctest */,
 				DBB95B9924BE324C0039EF61 /* EarthDayThreeSixtyFiveUITests.xctest */,
 			);
@@ -154,7 +154,7 @@
 			);
 			name = EarthDayThreeSixtyFive;
 			productName = EarthDayThreeSixtyFive;
-			productReference = DBB95B7524BE32440039EF61 /* EarthDayThreeSixtyFive.app */;
+			productReference = DBB95B7524BE32440039EF61 /* EarthDay365.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DBB95B8D24BE324B0039EF61 /* EarthDayThreeSixtyFiveTests */ = {
@@ -454,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.EarthDayThreeSixtyFive";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EarthDay365;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,7 +472,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KWK-Scholar.EarthDayThreeSixtyFive";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EarthDay365;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
