@@ -8,9 +8,9 @@
 
 import UIKit
 
-class reuseTimerViewController: UIViewController {
+class ReduceTimerViewController: UIViewController {
 
-    class timerViewController: UIViewController {
+    
         //OUTLETS
         
         @IBOutlet weak var timerLabel: UILabel!
@@ -55,7 +55,7 @@ class reuseTimerViewController: UIViewController {
             pauseButton.isEnabled = false
         }
         func runTimer() {
-            timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(timerViewController.updateTimer)), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self,   selector: (#selector(ReduceTimerViewController.updateTimer)), userInfo: nil, repeats: true)
             isTimerRunning = true
             pauseButton.isEnabled = true
         }
@@ -77,5 +77,5 @@ class reuseTimerViewController: UIViewController {
             let seconds = Int(time) % 60
             return String(format:"%02i:%02i:%02i", hours, minutes, seconds)
         }
-    }
+    
 }
