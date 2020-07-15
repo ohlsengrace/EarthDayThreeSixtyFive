@@ -12,10 +12,14 @@ class reuseTimerViewController: UIViewController {
 
     class timerViewController: UIViewController {
         //OUTLETS
+        
         @IBOutlet weak var timerLabel: UILabel!
         @IBOutlet weak var startButton: UIButton!
         @IBOutlet weak var pauseButton: UIButton!
         @IBOutlet weak var resetButton: UIButton!
+        
+
+        
         //VARIABLES
         var seconds = 300
         var timer = Timer()
