@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D30DAAF24BE421A008B08EB /* colorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30DAAE24BE421A008B08EB /* colorScheme.swift */; };
 		DB0CA3A024BF639100C4A9B5 /* BadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */; };
+		DB262F7324BFB5B600F7305C /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB262F7224BFB5B600F7305C /* TimerViewController.swift */; };
 		DBB95B7924BE32440039EF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7824BE32440039EF61 /* AppDelegate.swift */; };
 		DBB95B7B24BE32440039EF61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7A24BE32440039EF61 /* SceneDelegate.swift */; };
 		DBB95B7D24BE32440039EF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7C24BE32440039EF61 /* ViewController.swift */; };
@@ -19,7 +20,6 @@
 		DBB95B9324BE324C0039EF61 /* EarthDayThreeSixtyFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B9224BE324C0039EF61 /* EarthDayThreeSixtyFiveTests.swift */; };
 		DBB95B9E24BE324C0039EF61 /* EarthDayThreeSixtyFiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B9D24BE324C0039EF61 /* EarthDayThreeSixtyFiveUITests.swift */; };
 		DBB95BAC24BE34EE0039EF61 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95BAB24BE34EE0039EF61 /* secondViewController.swift */; };
-		DBED14E524BF96640028AC66 /* timerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBED14E424BF96640028AC66 /* timerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +42,7 @@
 /* Begin PBXFileReference section */
 		4D30DAAE24BE421A008B08EB /* colorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorScheme.swift; sourceTree = "<group>"; };
 		DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesViewController.swift; sourceTree = "<group>"; };
+		DB262F7224BFB5B600F7305C /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = ../TimerViewController.swift; sourceTree = "<group>"; };
 		DBB95B7524BE32440039EF61 /* EarthDay365.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthDay365.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB95B7824BE32440039EF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB95B7A24BE32440039EF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		DBB95B9D24BE324C0039EF61 /* EarthDayThreeSixtyFiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthDayThreeSixtyFiveUITests.swift; sourceTree = "<group>"; };
 		DBB95B9F24BE324C0039EF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBB95BAB24BE34EE0039EF61 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
-		DBED14E424BF96640028AC66 /* timerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +112,9 @@
 				DBB95B7824BE32440039EF61 /* AppDelegate.swift */,
 				DBB95B7A24BE32440039EF61 /* SceneDelegate.swift */,
 				DBB95B7C24BE32440039EF61 /* ViewController.swift */,
+				DB262F7224BFB5B600F7305C /* TimerViewController.swift */,
 				DBB95BAB24BE34EE0039EF61 /* secondViewController.swift */,
 				DBB95B7E24BE32440039EF61 /* Main.storyboard */,
-				DBED14E424BF96640028AC66 /* timerViewController.swift */,
 				DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */,
 				4D30DAAE24BE421A008B08EB /* colorScheme.swift */,
 				DBB95B8424BE324B0039EF61 /* Assets.xcassets */,
@@ -278,7 +278,7 @@
 				DBB95B7D24BE32440039EF61 /* ViewController.swift in Sources */,
 				DB0CA3A024BF639100C4A9B5 /* BadgesViewController.swift in Sources */,
 				4D30DAAF24BE421A008B08EB /* colorScheme.swift in Sources */,
-				DBED14E524BF96640028AC66 /* timerViewController.swift in Sources */,
+				DB262F7324BFB5B600F7305C /* TimerViewController.swift in Sources */,
 				DBB95B7924BE32440039EF61 /* AppDelegate.swift in Sources */,
 				DBB95BAC24BE34EE0039EF61 /* secondViewController.swift in Sources */,
 				DBB95B7B24BE32440039EF61 /* SceneDelegate.swift in Sources */,
