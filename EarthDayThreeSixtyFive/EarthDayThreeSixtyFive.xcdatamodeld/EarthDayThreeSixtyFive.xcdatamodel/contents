@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Badges" representedClassName="Badges" syncable="YES" codeGenerationType="class">
-        <attribute name="attribute" optional="YES" attributeType="String"/>
-    </entity>
-    <entity name="NumCoins" representedClassName="NumCoins" syncable="YES" codeGenerationType="class">
-        <attribute name="numCoins" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
-    </entity>
-    <elements>
-        <element name="Badges" positionX="-54" positionY="0" width="128" height="58"/>
-        <element name="NumCoins" positionX="-63" positionY="-18" width="128" height="58"/>
-    </elements>
+    <elements/>
 </model>

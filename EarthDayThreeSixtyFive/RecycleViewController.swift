@@ -25,6 +25,15 @@ class RecycleViewController: UIViewController {
     
     @IBAction func researchButtonTapped(_ sender: Any) {
         researchCheck.image = UIImage(named: "Check")
+        
+        
+        let alert = UIAlertController(title: "Coins Earned!", message: "For researching this, you get 3 coins. Now you have 23 coins!", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        self.present(alert, animated: true)
+        
+        
+        
+        
     }
     
     @IBAction func zipcodeButtonTapped(_ sender: Any) {

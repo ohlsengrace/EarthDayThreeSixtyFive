@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D30DAAF24BE421A008B08EB /* colorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30DAAE24BE421A008B08EB /* colorScheme.swift */; };
 		4D6F8D9E24C0BEC8009C7409 /* FashionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F8D9D24C0BEC8009C7409 /* FashionViewController.swift */; };
 		4D6F8DA024C0C871009C7409 /* ReduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F8D9F24C0C871009C7409 /* ReduceViewController.swift */; };
 		4D6F8DA224C0CAFD009C7409 /* RecycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F8DA124C0CAFD009C7409 /* RecycleViewController.swift */; };
@@ -16,7 +15,6 @@
 		DB0CA3A024BF639100C4A9B5 /* BadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */; };
 		DB262F7324BFB5B600F7305C /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB262F7224BFB5B600F7305C /* TimerViewController.swift */; };
 		DB89ACA024C0ADAE003C5EDD /* ReuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89AC9F24C0ADAE003C5EDD /* ReuseViewController.swift */; };
-		DB89ACA424C0DD05003C5EDD /* AlertFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89ACA324C0DD05003C5EDD /* AlertFunction.swift */; };
 		DBB95B7924BE32440039EF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7824BE32440039EF61 /* AppDelegate.swift */; };
 		DBB95B7B24BE32440039EF61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7A24BE32440039EF61 /* SceneDelegate.swift */; };
 		DBB95B7D24BE32440039EF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7C24BE32440039EF61 /* ViewController.swift */; };
@@ -27,7 +25,6 @@
 		DBB95B9324BE324C0039EF61 /* EarthDayThreeSixtyFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B9224BE324C0039EF61 /* EarthDayThreeSixtyFiveTests.swift */; };
 		DBB95B9E24BE324C0039EF61 /* EarthDayThreeSixtyFiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B9D24BE324C0039EF61 /* EarthDayThreeSixtyFiveUITests.swift */; };
 		DBB95BAC24BE34EE0039EF61 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95BAB24BE34EE0039EF61 /* secondViewController.swift */; };
-		DBD3710B24BFF4A00099D628 /* DeleteLater.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3710A24BFF4A00099D628 /* DeleteLater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D30DAAE24BE421A008B08EB /* colorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorScheme.swift; sourceTree = "<group>"; };
 		4D6F8D9D24C0BEC8009C7409 /* FashionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionViewController.swift; sourceTree = "<group>"; };
 		4D6F8D9F24C0C871009C7409 /* ReduceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceViewController.swift; sourceTree = "<group>"; };
 		4D6F8DA124C0CAFD009C7409 /* RecycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +53,6 @@
 		DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesViewController.swift; sourceTree = "<group>"; };
 		DB262F7224BFB5B600F7305C /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = ../TimerViewController.swift; sourceTree = "<group>"; };
 		DB89AC9F24C0ADAE003C5EDD /* ReuseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseViewController.swift; sourceTree = "<group>"; };
-		DB89ACA324C0DD05003C5EDD /* AlertFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertFunction.swift; sourceTree = "<group>"; };
 		DBB95B7524BE32440039EF61 /* EarthDay365.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthDay365.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB95B7824BE32440039EF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB95B7A24BE32440039EF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +69,6 @@
 		DBB95B9D24BE324C0039EF61 /* EarthDayThreeSixtyFiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthDayThreeSixtyFiveUITests.swift; sourceTree = "<group>"; };
 		DBB95B9F24BE324C0039EF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBB95BAB24BE34EE0039EF61 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
-		DBD3710A24BFF4A00099D628 /* DeleteLater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteLater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,12 +127,9 @@
 				4D6F8D9D24C0BEC8009C7409 /* FashionViewController.swift */,
 				DB89AC9F24C0ADAE003C5EDD /* ReuseViewController.swift */,
 				4D6F8D9F24C0C871009C7409 /* ReduceViewController.swift */,
-				DB89ACA324C0DD05003C5EDD /* AlertFunction.swift */,
 				4D6F8DA124C0CAFD009C7409 /* RecycleViewController.swift */,
 				4D6F8DA324C0D72B009C7409 /* TransportationViewController.swift */,
 				DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */,
-				4D30DAAE24BE421A008B08EB /* colorScheme.swift */,
-				DBD3710A24BFF4A00099D628 /* DeleteLater.swift */,
 				4D6F8DA524C0D890009C7409 /* DietViewController.swift */,
 				DBB95B7E24BE32440039EF61 /* Main.storyboard */,
 				DBB95B8424BE324B0039EF61 /* Assets.xcassets */,
@@ -301,16 +292,13 @@
 				DBB95B8324BE32440039EF61 /* EarthDayThreeSixtyFive.xcdatamodeld in Sources */,
 				DBB95B7D24BE32440039EF61 /* ViewController.swift in Sources */,
 				DB0CA3A024BF639100C4A9B5 /* BadgesViewController.swift in Sources */,
-				4D30DAAF24BE421A008B08EB /* colorScheme.swift in Sources */,
 				4D6F8DA424C0D72B009C7409 /* TransportationViewController.swift in Sources */,
 				4D6F8DA024C0C871009C7409 /* ReduceViewController.swift in Sources */,
 				DB262F7324BFB5B600F7305C /* TimerViewController.swift in Sources */,
 				DBB95B7924BE32440039EF61 /* AppDelegate.swift in Sources */,
-				DBD3710B24BFF4A00099D628 /* DeleteLater.swift in Sources */,
 				DB89ACA024C0ADAE003C5EDD /* ReuseViewController.swift in Sources */,
 				DBB95BAC24BE34EE0039EF61 /* secondViewController.swift in Sources */,
 				4D6F8DA224C0CAFD009C7409 /* RecycleViewController.swift in Sources */,
-				DB89ACA424C0DD05003C5EDD /* AlertFunction.swift in Sources */,
 				4D6F8D9E24C0BEC8009C7409 /* FashionViewController.swift in Sources */,
 				DBB95B7B24BE32440039EF61 /* SceneDelegate.swift in Sources */,
 				4D6F8DA624C0D890009C7409 /* DietViewController.swift in Sources */,
