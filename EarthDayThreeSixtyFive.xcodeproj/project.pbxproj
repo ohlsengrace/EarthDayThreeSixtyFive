@@ -10,6 +10,7 @@
 		4D30DAAF24BE421A008B08EB /* colorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30DAAE24BE421A008B08EB /* colorScheme.swift */; };
 		DB0CA3A024BF639100C4A9B5 /* BadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */; };
 		DB262F7324BFB5B600F7305C /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB262F7224BFB5B600F7305C /* TimerViewController.swift */; };
+		DB89ACA024C0ADAE003C5EDD /* ReuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89AC9F24C0ADAE003C5EDD /* ReuseViewController.swift */; };
 		DBB95B7924BE32440039EF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7824BE32440039EF61 /* AppDelegate.swift */; };
 		DBB95B7B24BE32440039EF61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7A24BE32440039EF61 /* SceneDelegate.swift */; };
 		DBB95B7D24BE32440039EF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B7C24BE32440039EF61 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		4D30DAAE24BE421A008B08EB /* colorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorScheme.swift; sourceTree = "<group>"; };
 		DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesViewController.swift; sourceTree = "<group>"; };
 		DB262F7224BFB5B600F7305C /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = ../TimerViewController.swift; sourceTree = "<group>"; };
+		DB89AC9F24C0ADAE003C5EDD /* ReuseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseViewController.swift; sourceTree = "<group>"; };
 		DBB95B7524BE32440039EF61 /* EarthDay365.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthDay365.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB95B7824BE32440039EF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB95B7A24BE32440039EF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				DB262F7224BFB5B600F7305C /* TimerViewController.swift */,
 				DBB95BAB24BE34EE0039EF61 /* secondViewController.swift */,
 				DBB95B7E24BE32440039EF61 /* Main.storyboard */,
+				DB89AC9F24C0ADAE003C5EDD /* ReuseViewController.swift */,
 				DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */,
 				4D30DAAE24BE421A008B08EB /* colorScheme.swift */,
 				DBD3710A24BFF4A00099D628 /* DeleteLater.swift */,
@@ -284,6 +287,7 @@
 				DB262F7324BFB5B600F7305C /* TimerViewController.swift in Sources */,
 				DBB95B7924BE32440039EF61 /* AppDelegate.swift in Sources */,
 				DBD3710B24BFF4A00099D628 /* DeleteLater.swift in Sources */,
+				DB89ACA024C0ADAE003C5EDD /* ReuseViewController.swift in Sources */,
 				DBB95BAC24BE34EE0039EF61 /* secondViewController.swift in Sources */,
 				DBB95B7B24BE32440039EF61 /* SceneDelegate.swift in Sources */,
 			);
