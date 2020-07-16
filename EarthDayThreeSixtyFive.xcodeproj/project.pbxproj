@@ -20,6 +20,7 @@
 		DBB95B9324BE324C0039EF61 /* EarthDayThreeSixtyFiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B9224BE324C0039EF61 /* EarthDayThreeSixtyFiveTests.swift */; };
 		DBB95B9E24BE324C0039EF61 /* EarthDayThreeSixtyFiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95B9D24BE324C0039EF61 /* EarthDayThreeSixtyFiveUITests.swift */; };
 		DBB95BAC24BE34EE0039EF61 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB95BAB24BE34EE0039EF61 /* secondViewController.swift */; };
+		DBD3710B24BFF4A00099D628 /* DeleteLater.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3710A24BFF4A00099D628 /* DeleteLater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		DBB95B9D24BE324C0039EF61 /* EarthDayThreeSixtyFiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthDayThreeSixtyFiveUITests.swift; sourceTree = "<group>"; };
 		DBB95B9F24BE324C0039EF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBB95BAB24BE34EE0039EF61 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		DBD3710A24BFF4A00099D628 /* DeleteLater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteLater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				DBB95B7E24BE32440039EF61 /* Main.storyboard */,
 				DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */,
 				4D30DAAE24BE421A008B08EB /* colorScheme.swift */,
+				DBD3710A24BFF4A00099D628 /* DeleteLater.swift */,
 				DBB95B8424BE324B0039EF61 /* Assets.xcassets */,
 				DBB95B8624BE324B0039EF61 /* LaunchScreen.storyboard */,
 				DBB95B8924BE324B0039EF61 /* Info.plist */,
@@ -280,6 +283,7 @@
 				4D30DAAF24BE421A008B08EB /* colorScheme.swift in Sources */,
 				DB262F7324BFB5B600F7305C /* TimerViewController.swift in Sources */,
 				DBB95B7924BE32440039EF61 /* AppDelegate.swift in Sources */,
+				DBD3710B24BFF4A00099D628 /* DeleteLater.swift in Sources */,
 				DBB95BAC24BE34EE0039EF61 /* secondViewController.swift in Sources */,
 				DBB95B7B24BE32440039EF61 /* SceneDelegate.swift in Sources */,
 			);
