@@ -471,6 +471,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOG-e2-5o1">
                                 <rect key="frame" x="80" y="359" width="326" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="thriftingButtonTapped:" destination="9MP-2J-JQ7" eventType="touchUpInside" id="apY-77-tQn"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Repair or patch an article of clothing you'd normally throw out/replace" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtI-by-OC6">
                                 <rect key="frame" x="78" y="448" width="328" height="115"/>
@@ -483,6 +486,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHb-SA-EzP">
                                 <rect key="frame" x="77" y="448" width="326" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="repairButtonTapped:" destination="9MP-2J-JQ7" eventType="touchUpInside" id="4jE-qS-OHa"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose quality over quantity" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqq-Bb-9n2">
                                 <rect key="frame" x="78" y="593" width="328" height="65"/>
@@ -495,6 +501,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76d-64-0EA">
                                 <rect key="frame" x="77" y="593" width="326" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="qualityButtonTapped:" destination="9MP-2J-JQ7" eventType="touchUpInside" id="txT-m4-w2T"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watch &quot;The True Cost&quot; movie" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9I-aR-sCt">
                                 <rect key="frame" x="76" y="691" width="328" height="64"/>
@@ -556,6 +565,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqf-6f-yar">
                                 <rect key="frame" x="78" y="251" width="326" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="thirtyButtonTapped:" destination="9MP-2J-JQ7" eventType="touchUpInside" id="ieW-lt-9bG"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="https://truecostmovie.com" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dll-n6-Imy">
                                 <rect key="frame" x="59" y="763" width="309" height="55"/>
@@ -568,12 +580,22 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXy-wH-YeN">
                                 <rect key="frame" x="76" y="691" width="326" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="costButtonTapped:" destination="9MP-2J-JQ7" eventType="touchUpInside" id="rI2-4K-8TZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.51372549020000002" green="0.73725490199999999" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wTz-ve-if0"/>
                     </view>
                     <navigationItem key="navigationItem" id="MPn-RL-ia9"/>
+                    <connections>
+                        <outlet property="costCheck" destination="wr7-7M-f0F" id="z3L-WI-9ge"/>
+                        <outlet property="qualityCheck" destination="NK1-eo-B3U" id="XDK-gM-AWV"/>
+                        <outlet property="repairCheck" destination="3Ke-V6-JJV" id="QF8-FV-Os2"/>
+                        <outlet property="thirtyCheck" destination="5a5-0G-E4h" id="Kjw-72-T1i"/>
+                        <outlet property="thriftingCheck" destination="okK-9E-Arj" id="Ije-Gh-GDi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8qS-gX-hK5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="pFB-bW-a4j" userLabel="Exit" sceneMemberID="exit"/>
@@ -666,10 +688,10 @@
             </objects>
             <point key="canvasLocation" x="-684.05797101449275" y="1082.8125"/>
         </scene>
-        <!--View Controller-->
+        <!--Transportation View Controller-->
         <scene sceneID="fNP-Nr-aca">
             <objects>
-                <viewController id="u65-wE-ten" sceneMemberID="viewController">
+                <viewController id="u65-wE-ten" customClass="TransportationViewController" customModule="EarthDay365" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FMF-qD-5jZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -704,6 +726,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xv-Vk-vwm">
                                 <rect key="frame" x="78" y="241" width="326" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="bikeTappedButton:" destination="u65-wE-ten" eventType="touchUpInside" id="pos-3F-PdY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Electric and Hybrid Vehicles" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmw-ec-zPM">
                                 <rect key="frame" x="78" y="379" width="328" height="75"/>
@@ -716,6 +741,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZq-zH-rVZ">
                                 <rect key="frame" x="78" y="379" width="326" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="hybridButtonTapped:" destination="u65-wE-ten" eventType="touchUpInside" id="rhJ-Ir-QjW"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Car Pools -- driving with friends is more fun anyway!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38m-uz-GDd">
                                 <rect key="frame" x="78" y="462" width="328" height="131"/>
@@ -728,6 +756,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zk-T3-vke">
                                 <rect key="frame" x="80" y="462" width="326" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="carpoolButtonTapped:" destination="u65-wE-ten" eventType="touchUpInside" id="d0t-TD-WUl"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Public Transportation -- very easy to use once you have experience" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJ2-Ly-Txv">
                                 <rect key="frame" x="78" y="601" width="328" height="131"/>
@@ -740,6 +771,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcM-IO-lyO">
                                 <rect key="frame" x="78" y="601" width="326" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="publicButtonTapped:" destination="u65-wE-ten" eventType="touchUpInside" id="hwi-7H-dz9"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Walking (get that exercise!)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTa-HQ-Oxy">
                                 <rect key="frame" x="78" y="740" width="328" height="82"/>
@@ -777,12 +811,22 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPG-Lz-HVY">
                                 <rect key="frame" x="80" y="740" width="326" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="walkButtonTapped:" destination="u65-wE-ten" eventType="touchUpInside" id="POr-bR-cbW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.51372549020000002" green="0.73725490199999999" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="DLS-J8-Jvl"/>
                     </view>
                     <navigationItem key="navigationItem" id="zsB-W2-TTh"/>
+                    <connections>
+                        <outlet property="bikeCheck" destination="318-V6-pJH" id="Pe9-vu-THT"/>
+                        <outlet property="carpoolCheck" destination="t9i-a6-CED" id="vVi-zD-TVC"/>
+                        <outlet property="hybridCheck" destination="KGL-VN-3Jl" id="V8g-KY-Roe"/>
+                        <outlet property="publicCheck" destination="2A1-ml-6T3" id="M1Y-mC-R46"/>
+                        <outlet property="walkCheck" destination="Xww-jW-H5J" id="up3-KW-J2c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cc8-WY-6Cq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

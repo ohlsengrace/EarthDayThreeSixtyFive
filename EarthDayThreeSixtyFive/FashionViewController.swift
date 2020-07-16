@@ -10,6 +10,13 @@ import UIKit
 
 class FashionViewController: UIViewController {
 
+    @IBOutlet weak var thirtyCheck: UIImageView!
+    @IBOutlet weak var thriftingCheck: UIImageView!
+    @IBOutlet weak var repairCheck: UIImageView!
+    @IBOutlet weak var qualityCheck: UIImageView!
+    @IBOutlet weak var costCheck: UIImageView!
+    
+    
     
     @IBAction func goToLink(_ sender: Any) {
         
@@ -28,6 +35,30 @@ class FashionViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    
+    @IBAction func thirtyButtonTapped(_ sender: Any) {
+        thirtyCheck.image = UIImage(named: "Check")
+    }
+    
+    @IBAction func thriftingButtonTapped(_ sender: Any) {
+        thriftingCheck.image = UIImage(named: "Check")
+    }
+    
+    @IBAction func repairButtonTapped(_ sender: Any) {
+        repairCheck.image = UIImage(named: "Check")
+    }
+    
+    
+    @IBAction func qualityButtonTapped(_ sender: Any) {
+        qualityCheck.image = UIImage(named: "Check")
+    }
+    
+    
+    @IBAction func costButtonTapped(_ sender: Any) {
+        costCheck.image = UIImage(named: "Check")
+    }
+    
     
     override func didReceiveMemoryWarning() {
         
