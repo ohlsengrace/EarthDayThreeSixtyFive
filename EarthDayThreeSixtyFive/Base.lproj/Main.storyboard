@@ -602,10 +602,10 @@
             </objects>
             <point key="canvasLocation" x="1192.753623188406" y="385.71428571428572"/>
         </scene>
-        <!--View Controller-->
+        <!--Diet View Controller-->
         <scene sceneID="syX-9t-Ssa">
             <objects>
-                <viewController id="Ohc-an-S2b" sceneMemberID="viewController">
+                <viewController id="Ohc-an-S2b" customClass="DietViewController" customModule="EarthDay365" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tQD-l6-and">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -636,6 +636,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mdx-mt-UHh">
                                 <rect key="frame" x="96" y="141" width="298" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="veganButtonTapped:" destination="Ohc-an-S2b" eventType="touchUpInside" id="Is7-0f-2S4"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzQ-5X-qrl">
                                 <rect key="frame" x="96" y="358" width="298" height="208"/>
@@ -649,6 +652,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgA-kf-TzA">
                                 <rect key="frame" x="96" y="358" width="298" height="208"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="veggieButtonTapped:" destination="Ohc-an-S2b" eventType="touchUpInside" id="5sr-Qp-cbf"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVx-dk-ZaF">
                                 <rect key="frame" x="96" y="586" width="298" height="187"/>
@@ -677,12 +683,20 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FI-7z-4jn">
                                 <rect key="frame" x="96" y="586" width="298" height="187"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="mondayButtonTapped:" destination="Ohc-an-S2b" eventType="touchUpInside" id="Cxg-aE-Tio"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.51372549020000002" green="0.73725490199999999" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gSF-J3-6lb"/>
                     </view>
                     <navigationItem key="navigationItem" id="JsQ-d8-2ZO"/>
+                    <connections>
+                        <outlet property="mondayCheck" destination="RgM-U1-Rbg" id="bxZ-5h-itk"/>
+                        <outlet property="veganCheck" destination="9tJ-Bh-YKN" id="6E9-Bl-LhU"/>
+                        <outlet property="veggieCheck" destination="pte-Qo-Uif" id="KaM-ih-l5s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LRE-Yy-5of" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

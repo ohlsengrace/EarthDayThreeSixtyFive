@@ -12,6 +12,7 @@
 		4D6F8DA024C0C871009C7409 /* ReduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F8D9F24C0C871009C7409 /* ReduceViewController.swift */; };
 		4D6F8DA224C0CAFD009C7409 /* RecycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F8DA124C0CAFD009C7409 /* RecycleViewController.swift */; };
 		4D6F8DA424C0D72B009C7409 /* TransportationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F8DA324C0D72B009C7409 /* TransportationViewController.swift */; };
+		4D6F8DA624C0D890009C7409 /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F8DA524C0D890009C7409 /* DietViewController.swift */; };
 		DB0CA3A024BF639100C4A9B5 /* BadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */; };
 		DB262F7324BFB5B600F7305C /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB262F7224BFB5B600F7305C /* TimerViewController.swift */; };
 		DB89ACA024C0ADAE003C5EDD /* ReuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89AC9F24C0ADAE003C5EDD /* ReuseViewController.swift */; };
@@ -51,6 +52,7 @@
 		4D6F8D9F24C0C871009C7409 /* ReduceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceViewController.swift; sourceTree = "<group>"; };
 		4D6F8DA124C0CAFD009C7409 /* RecycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleViewController.swift; sourceTree = "<group>"; };
 		4D6F8DA324C0D72B009C7409 /* TransportationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationViewController.swift; sourceTree = "<group>"; };
+		4D6F8DA524C0D890009C7409 /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
 		DB0CA39F24BF639100C4A9B5 /* BadgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesViewController.swift; sourceTree = "<group>"; };
 		DB262F7224BFB5B600F7305C /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = ../TimerViewController.swift; sourceTree = "<group>"; };
 		DB89AC9F24C0ADAE003C5EDD /* ReuseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				4D30DAAE24BE421A008B08EB /* colorScheme.swift */,
 				DBD3710A24BFF4A00099D628 /* DeleteLater.swift */,
 				DBB95B7E24BE32440039EF61 /* Main.storyboard */,
+				4D6F8DA524C0D890009C7409 /* DietViewController.swift */,
 				DBB95B8424BE324B0039EF61 /* Assets.xcassets */,
 				DBB95B8624BE324B0039EF61 /* LaunchScreen.storyboard */,
 				DBB95B8924BE324B0039EF61 /* Info.plist */,
@@ -306,6 +309,7 @@
 				4D6F8DA224C0CAFD009C7409 /* RecycleViewController.swift in Sources */,
 				4D6F8D9E24C0BEC8009C7409 /* FashionViewController.swift in Sources */,
 				DBB95B7B24BE32440039EF61 /* SceneDelegate.swift in Sources */,
+				4D6F8DA624C0D890009C7409 /* DietViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
