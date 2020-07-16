@@ -106,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="275" y="944"/>
         </scene>
-        <!--View Controller-->
+        <!--Reduce View Controller-->
         <scene sceneID="Ue3-iv-D7B">
             <objects>
-                <viewController id="cBz-5n-Ytq" sceneMemberID="viewController">
+                <viewController id="cBz-5n-Ytq" customClass="ReduceViewController" customModule="EarthDay365" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Vc-fk-Iej">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,6 +132,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVA-rN-gPl">
                                 <rect key="frame" x="104" y="153" width="301" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="compostButtonTapped:" destination="cBz-5n-Ytq" eventType="touchUpInside" id="KXT-uQ-t26"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- shop at farmer's markets to reduce bulk packaging" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Anx-aA-lKO">
                                 <rect key="frame" x="104" y="304" width="301" height="132"/>
@@ -144,6 +147,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxZ-Ye-3x2">
                                 <rect key="frame" x="104" y="304" width="301" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="marketButtonTapped:" destination="cBz-5n-Ytq" eventType="touchUpInside" id="zBF-O8-Kds"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- buy in bulk as opposed to wasteful individual packaging" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuE-KP-wGz">
                                 <rect key="frame" x="104" y="461" width="301" height="132"/>
@@ -156,6 +162,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fr3-AM-vOM">
                                 <rect key="frame" x="104" y="461" width="301" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="bulkButtonTapped:" destination="cBz-5n-Ytq" eventType="touchUpInside" id="UyP-hD-j6X"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- don't forget your left-overs! minimize food waste. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yli-bX-tag">
                                 <rect key="frame" x="104" y="618" width="301" height="132"/>
@@ -188,12 +197,21 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mg1-CT-JOu">
                                 <rect key="frame" x="104" y="618" width="301" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="leftOverButtonTapped:" destination="cBz-5n-Ytq" eventType="touchUpInside" id="fND-DQ-feG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.51372549020000002" green="0.73725490199999999" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="yO2-Wg-5s2"/>
                     </view>
                     <navigationItem key="navigationItem" id="NDj-CT-WEu"/>
+                    <connections>
+                        <outlet property="bulkCheck" destination="sdU-sN-Eb4" id="vKf-wg-iA7"/>
+                        <outlet property="compostCheck" destination="Wmy-WF-ixH" id="Jzo-x4-gsM"/>
+                        <outlet property="leftOverCheck" destination="RWK-Tn-ahT" id="LmJ-QF-DA8"/>
+                        <outlet property="marketCheck" destination="UDl-6f-dV8" id="Rg1-BW-q1H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nbC-gm-4cK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -930,10 +948,10 @@
             </objects>
             <point key="canvasLocation" x="1192.753623188406" y="-289.28571428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Recycle View Controller-->
         <scene sceneID="hfi-3L-dmM">
             <objects>
-                <viewController id="puJ-2k-dcc" sceneMemberID="viewController">
+                <viewController id="puJ-2k-dcc" customClass="RecycleViewController" customModule="EarthDay365" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mdU-z6-3vB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -964,6 +982,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4W-7Q-esi">
                                 <rect key="frame" x="112" y="243" width="289" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="researchButtonTapped:" destination="puJ-2k-dcc" eventType="touchUpInside" id="vcm-I2-Vmx"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plug in your zipcode to BeRecycled.org to determine whether an obscure item is recyclable" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dl-IW-a3d">
                                 <rect key="frame" x="111" y="359" width="290" height="123"/>
@@ -976,6 +997,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UI-5t-XfQ">
                                 <rect key="frame" x="111" y="359" width="290" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="zipcodeButtonTapped:" destination="puJ-2k-dcc" eventType="touchUpInside" id="yLQ-ql-Szw"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rinse out items such as cans and food containers" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ink-gb-PQ4">
                                 <rect key="frame" x="111" y="502" width="290" height="75"/>
@@ -988,6 +1012,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ish-bq-7jt">
                                 <rect key="frame" x="111" y="502" width="290" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="rinseButtonTapped:" destination="puJ-2k-dcc" eventType="touchUpInside" id="1kJ-1x-35T"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't bag it! It will go to the landfill. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="se3-OZ-38f">
                                 <rect key="frame" x="111" y="597" width="290" height="84"/>
@@ -1000,6 +1027,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1z-hu-PCf">
                                 <rect key="frame" x="111" y="593" width="290" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="noBagButtonTapped:" destination="puJ-2k-dcc" eventType="touchUpInside" id="94I-ct-sWG"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you don't know, throw it out. This will reduce quantity of real recyclables thrown out" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b00-mg-FBk">
                                 <rect key="frame" x="111" y="703" width="290" height="119"/>
@@ -1037,12 +1067,22 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0p-TS-rtC">
                                 <rect key="frame" x="111" y="703" width="290" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="knowButtonTapped:" destination="puJ-2k-dcc" eventType="touchUpInside" id="suM-KZ-R4c"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.51372549020000002" green="0.73725490199999999" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="URp-2z-Qgv"/>
                     </view>
                     <navigationItem key="navigationItem" id="xRh-e5-5ga"/>
+                    <connections>
+                        <outlet property="knowCheck" destination="F1i-2p-DIm" id="ULt-Q0-mLg"/>
+                        <outlet property="noBagCheck" destination="KuP-2Y-6bN" id="v5c-QT-PKT"/>
+                        <outlet property="researchCheck" destination="oa4-DP-mb7" id="eqR-ps-Oii"/>
+                        <outlet property="rinseCheck" destination="vQS-MD-6Jh" id="oeW-J9-nGz"/>
+                        <outlet property="zipcodeCheck" destination="O76-ig-6sf" id="awy-Rm-8nK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bCL-V7-uG1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
