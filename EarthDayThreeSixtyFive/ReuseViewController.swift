@@ -11,6 +11,11 @@ import UIKit
 class ReuseViewController: UIViewController {
 
     @IBOutlet weak var groceryBagCheck: UIImageView!
+    @IBOutlet weak var utensilCheck: UIImageView!
+    @IBOutlet weak var waterbottleCheck: UIImageView!
+    @IBOutlet weak var coffeeCupCheck: UIImageView!
+    @IBOutlet weak var strawCheck: UIImageView!
+    @IBOutlet weak var takeOutCheck: UIImageView!
     
     
     
@@ -30,10 +35,39 @@ class ReuseViewController: UIViewController {
         
     }
     
+
+    @IBAction func utensilButtonTapped(_ sender: Any) {
+        
+        utensilCheck.image = UIImage(named: "Check")
+        
+    }
+    
+
+    @IBAction func waterbottleButtonTapped(_ sender: Any) {
+        
+        waterbottleCheck.image = UIImage(named: "Check")
+        
+    }
     
     
+    @IBAction func coffeeButtonTapped(_ sender: Any) {
+        
+        coffeeCupCheck.image = UIImage(named: "Check")
+        
+    }
     
     
+    @IBAction func strawButtonTapped(_ sender: Any) {
+        
+        strawCheck.image = UIImage(named: "Check")
+        
+    }
+    
+    
+    @IBAction func takeOutButtonTapped(_ sender: Any) {
+        
+        takeOutCheck.image = UIImage(named: "Check")
+    }
     
     
 
