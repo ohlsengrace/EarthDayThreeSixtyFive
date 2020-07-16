@@ -28,6 +28,8 @@ class ReduceViewController: UIViewController {
         
         compostCheck.image = UIImage(named: "Check")
         
+
+        
     }
     
     @IBAction func marketButtonTapped(_ sender: Any) {

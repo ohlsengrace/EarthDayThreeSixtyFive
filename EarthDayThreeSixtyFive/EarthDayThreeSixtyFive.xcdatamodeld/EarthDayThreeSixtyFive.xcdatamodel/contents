@@ -4,7 +4,7 @@
         <attribute name="attribute" optional="YES" attributeType="String"/>
     </entity>
     <entity name="NumCoins" representedClassName="NumCoins" syncable="YES" codeGenerationType="class">
-        <attribute name="number" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="numCoins" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
     <elements>
         <element name="Badges" positionX="-54" positionY="0" width="128" height="58"/>
