@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "084C642B-BB52-40AE-9BAE-7AFC82AE2B3E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6490D7C-13B5-40AC-A78F-D591F565666A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EarthDayThreeSixtyFive/reuseTimerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8CC5EA0-C763-4BF8-A868-18FA63EB553D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TimerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "TimerViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A8CC5EA0-C763-4BF8-A868-18FA63EB553D - e1666c8d51f06aba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EarthDay365.TimerViewController.seconds.getter : Swift.Int"
+                  moduleName = "EarthDay365"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mark/Documents/EarthDayThreeSixtyFive/TimerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "A8CC5EA0-C763-4BF8-A868-18FA63EB553D - 1f4193c96b513eae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EarthDay365.TimerViewController.seconds.setter : Swift.Int"
+                  moduleName = "EarthDay365"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mark/Documents/EarthDayThreeSixtyFive/TimerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  uuid = "A8CC5EA0-C763-4BF8-A868-18FA63EB553D - 2336ae2420734fbf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EarthDay365.TimerViewController.seconds.modify : Swift.Int"
+                  moduleName = "EarthDay365"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mark/Documents/EarthDayThreeSixtyFive/TimerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "A8CC5EA0-C763-4BF8-A868-18FA63EB553D - 553c1d122a278dae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EarthDay365.TimerViewController.seconds.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "EarthDay365"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mark/Documents/EarthDayThreeSixtyFive/TimerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "A8CC5EA0-C763-4BF8-A868-18FA63EB553D - e439b6832a5df146"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EarthDay365.TimerViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; EarthDay365.TimerViewController"
+                  moduleName = "EarthDay365"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mark/Documents/EarthDayThreeSixtyFive/TimerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "815">
+               </Location>
+               <Location
+                  uuid = "A8CC5EA0-C763-4BF8-A868-18FA63EB553D - 11e5a7f55013544d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EarthDay365.TimerViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;EarthDay365.TimerViewController&gt;"
+                  moduleName = "EarthDay365"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Mark/Documents/EarthDayThreeSixtyFive/TimerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "750">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

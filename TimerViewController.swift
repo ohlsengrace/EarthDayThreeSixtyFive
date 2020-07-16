@@ -62,7 +62,7 @@ class TimerViewController: UIViewController {
         if seconds < 1 {
             timer.invalidate()
             // WILL SEND ALERT WHEN TIMERS COMPLETE
-            let alert = UIAlertController(title: "Times Up!", message: "Meditation Complete.", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Times Up!", message: "Shower Complete.", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alert, animated: true)
         } else {
